@@ -1,9 +1,29 @@
-/**
- * @format
- */
+import {Navigation} from 'react-native-navigation';
+import {RegisterComponents} from './src/screens';
+import {LoginScreenId} from './src/screens/login/index';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+RegisterComponents();
 
-AppRegistry.registerComponent(appName, () => App);
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setRoot({
+    root: {
+      stack: {
+        children: [
+          {
+            component: {
+              name: LoginScreenId,
+            },
+          },
+        ],
+      },
+    },
+  });
+});
+
+Navigation.setDefaultOptions({
+  topBar: {
+    visible: false,
+    drawBehind: true,
+    animate: false,
+  },
+});

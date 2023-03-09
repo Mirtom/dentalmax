@@ -1,0 +1,11 @@
+export {default as LogoTopbar} from './images/logo_topbar.png';
+export {default as LogoProfilo} from './images/logo_profilo.png';
+export {default as LogoFooter} from './images/logo_footer.png';
+export {default as LogoLogin} from './images/loghi_login.png';
+export {default as WhatsappIcon} from './images/icon_whatsapp.png';
+export {default as ToothIcon} from './images/icon_category_variecadcam.png';
+export {default as ToothCardIcon} from './images/icon_category_tutte.png';
+export {default as ProtesimobIcon} from './images/icon_category_protesimobile.png';
+export {default as ProtesifisIcon} from './images/icon_category_protesifissa.png';
+export {default as OrtodonziaIcon} from './images/icon_category_ortodonzia.png';
+export {default as ChirurgiaIcon} from './images/icon_category_chirurgiaguidata.png';

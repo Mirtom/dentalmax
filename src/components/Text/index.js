@@ -1,17 +1,19 @@
 import React from 'react';
-import {Text, StyleSheet} from 'react-native';
+import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 import {Normalize} from '../../utils/normalize';
 import colors from '../../constants/colors';
 
 const DMText = ({
   children,
   color,
-  size = Normalize(18),
+  size = Normalize(16),
   numberOfLines = undefined,
   style,
   bold,
   medium,
   secondary,
+  alignCenter,
+  onPress,
 }) => {
   const dynamicStyle = {
     color: color
@@ -25,14 +27,24 @@ const DMText = ({
       : medium
       ? 'DINPro-Medium'
       : 'DINPro-Regular',
+    textDecorationLine: onPress && 'underline',
+    textAlign: alignCenter && 'center',
   };
 
-  return (
+  return !onPress ? (
     <Text
       style={StyleSheet.flatten([dynamicStyle, style])}
       numberOfLines={numberOfLines}>
       {children}
     </Text>
+  ) : (
+    <TouchableOpacity onPress={onPress}>
+      <Text
+        style={StyleSheet.flatten([dynamicStyle, style])}
+        numberOfLines={numberOfLines}>
+        {children}
+      </Text>
+    </TouchableOpacity>
   );
 };
 

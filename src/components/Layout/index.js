@@ -1,9 +1,9 @@
 import React from 'react';
-import {View} from 'react-native';
+import {SafeAreaView, View} from 'react-native';
 import styles from './style';
 
 const Layout = ({children}) => {
-  return <View style={styles.wrapper}>{children}</View>;
+  return <SafeAreaView style={styles.wrapper}>{children}</SafeAreaView>;
 };
 
 export default Layout;

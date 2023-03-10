@@ -1,9 +1,9 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {DEVICE_HEIGHT, DEVICE_WIDTH, Normalize} from '../../utils/normalize';
 import colors from '../../constants/colors';
 import {Navigation} from 'react-native-navigation';
-const {statusBarHeight, topBarHeight} = Navigation.constantsSync();
+const {statusBarHeight} = Navigation.constantsSync();
 
 export default StyleSheet.create({
   wrapper: {

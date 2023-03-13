@@ -5,7 +5,7 @@ import {Button} from 'react-native-ui-lib';
 import colors from '../../constants/colors';
 import DMText from '../Text';
 
-const DMButton = ({secondary, style, small, label}) => {
+const DMButton = ({secondary, style, small, label, onPress}) => {
   const buttonColor = secondary ? colors.primaryDark : colors.primaryGreen;
 
   return (
@@ -15,6 +15,7 @@ const DMButton = ({secondary, style, small, label}) => {
           {label}
         </DMText>
       }
+      onPress={onPress}
       style={[
         styles.button,
         style,

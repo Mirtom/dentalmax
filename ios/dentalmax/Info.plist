@@ -37,6 +37,14 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>DINPro-Bold.otf</string>
+		<string>DINPro-Medium.otf</string>
+		<string>DINPro-Regular.otf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,13 +59,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>MaterialCommunityIcons.ttf</string>
-		<string>MaterialIcons.ttf</string>
-		<string>DINPro-Bold.otf</string>
-		<string>DINPro-Medium.otf</string>
-		<string>DINPro-Regular.otf</string>
-	</array>
 </dict>
 </plist>

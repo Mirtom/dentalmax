@@ -24,6 +24,7 @@ const DMTextField = ({
         style={style.input}
         onChangeText={onChangeText}
         value={value}
+        autoCapitalize="none"
         placeholder={placeholder}
         keyboardType={keyboardType}
         placeholderTextColor="#BFBDC1"

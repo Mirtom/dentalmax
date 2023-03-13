@@ -7,9 +7,16 @@ const {statusBarHeight} = Navigation.constantsSync();
 
 export default StyleSheet.create({
   wrapper: {
-    paddingTop: statusBarHeight,
     height: DEVICE_HEIGHT,
     width: DEVICE_WIDTH,
+    backgroundColor: '#FFF',
+  },
+  header: {
+    paddingTop: statusBarHeight,
     backgroundColor: colors.backgroundColor,
+  },
+  childrenWrapper: {
+    backgroundColor: colors.backgroundColor,
+    flex: 1,
   },
 });

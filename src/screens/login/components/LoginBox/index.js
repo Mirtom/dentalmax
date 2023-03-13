@@ -8,12 +8,32 @@ import DMButton from '../../../../components/Button';
 import colors from '../../../../constants/colors';
 import {Normalize} from '../../../../utils/normalize';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import {
+  login,
+  selectUserError,
+  selectUserLoading,
+} from '../../../../store/reducers/user';
+import {useDispatch, useSelector} from 'react-redux';
 
 const LoginBox = () => {
   //States
-  const [username, setUsername] = React.useState('');
+  const [email, setemail] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [rememberCredentials, setRememberCredentials] = React.useState(false);
+  const loading = useSelector(selectUserLoading);
+  const error = useSelector(selectUserError);
+  const dispatch = useDispatch();
+
+  const handleLogin = () => {
+    if (email && password) {
+      dispatch(
+        login({
+          email,
+          password,
+        }),
+      );
+    }
+  };
 
   return (
     <View style={styles.formWrapper}>
@@ -33,10 +53,10 @@ const LoginBox = () => {
             style={{marginRight: Normalize(12)}}
           />
         }
-        value={username}
+        value={email}
         small
         placeholder={'Email'}
-        onChangeText={val => setUsername(val)}
+        onChangeText={val => setemail(val)?.toLowerCase()}
       />
       <DMTextField
         styles={{marginTop: Normalize(12)}}
@@ -60,7 +80,20 @@ const LoginBox = () => {
         onValueChange={() => setRememberCredentials(!rememberCredentials)}>
         <DMText>Ricorda le mie credenziali</DMText>
       </DMCheckBox>
-      <DMButton small label={'ACCEDI'} style={{marginTop: Normalize(32)}} />
+      {error && (
+        <DMText
+          color={colors.red}
+          style={styles.errorText}
+          size={Normalize(14)}>
+          Username o password errata
+        </DMText>
+      )}
+      <DMButton
+        small
+        label={'ACCEDI'}
+        style={{marginTop: Normalize(32)}}
+        onPress={() => handleLogin()}
+      />
       <DMText
         onPress={() => alert('Click')}
         color={colors.lightGrey}

@@ -9,4 +9,8 @@ export default StyleSheet.create({
   subText: {
     marginTop: Normalize(8),
   },
+  errorText: {
+    marginTop: Normalize(10),
+    marginBottom: Normalize(-16),
+  },
 });

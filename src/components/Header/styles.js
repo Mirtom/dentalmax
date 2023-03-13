@@ -6,15 +6,12 @@ const {statusBarHeight} = Navigation.constantsSync();
 
 export default StyleSheet.create({
   wrapper: {
-    height: Normalize(100) - statusBarHeight,
+    height: Normalize(100),
+    paddingTop: statusBarHeight,
     width: '100%',
     backgroundColor: '#FFFFFF',
     borderBottomLeftRadius: Normalize(28),
     borderBottomRightRadius: Normalize(28),
-    overflow: 'hidden',
-    paddingBottom: Normalize(15),
-  },
-  shadow: {
     shadowColor: '#28242D1A',
     shadowOffset: {
       width: 0,
@@ -22,7 +19,11 @@ export default StyleSheet.create({
     },
     shadowOpacity: 1,
     shadowRadius: Normalize(10),
-
     elevation: 5,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: Normalize(20),
   },
 });

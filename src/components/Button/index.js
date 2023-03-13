@@ -4,12 +4,14 @@ import {View} from 'react-native';
 import {Button} from 'react-native-ui-lib';
 import colors from '../../constants/colors';
 import DMText from '../Text';
+import {Normalize} from '../../utils/normalize';
 
-const DMButton = ({secondary, style, small, label, onPress}) => {
+const DMButton = ({secondary, style, small, label, icon, onPress}) => {
   const buttonColor = secondary ? colors.primaryDark : colors.primaryGreen;
 
   return (
     <Button
+      iconSource={icon}
       label={
         <DMText color={'#FFF'} bold>
           {label}
@@ -18,8 +20,8 @@ const DMButton = ({secondary, style, small, label, onPress}) => {
       onPress={onPress}
       style={[
         styles.button,
-        style,
         small ? styles.smallWidth : styles.largeWidth,
+        style,
       ]}
       size={Button.sizes.medium}
       backgroundColor={buttonColor}

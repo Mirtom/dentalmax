@@ -17,4 +17,18 @@ export default StyleSheet.create({
     shadowRadius: Normalize(10),
     elevation: 5,
   },
+  mrg20: {
+    marginHorizontal: Normalize(20),
+  },
+  wrapper: {
+    marginTop: Normalize(2),
+  },
+  heading: {
+    display: 'flex',
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    paddingTop: Normalize(28),
+    marginBottom: Normalize(28),
+  },
 });

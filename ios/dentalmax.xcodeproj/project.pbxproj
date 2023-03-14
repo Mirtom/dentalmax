@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* dentalmaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dentalmaxTests.m */; };
+		0779ABED6B5CB813FEF2DF40 /* libPods-dentalmax-dentalmaxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3668262B63E0C1E95279D86 /* libPods-dentalmax-dentalmaxTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18B46247B916DAB1C281BDD8 /* libPods-dentalmax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B033CAEE106AB1CE3495876 /* libPods-dentalmax.a */; };
 		405B0A483DC1404C92BDA67E /* DINPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A299535CD93E4869BE60E794 /* DINPro-Regular.otf */; };
 		44A1B9D686024F74B0044D03 /* DINPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 301595873F92486CA2EE0C21 /* DINPro-Bold.otf */; };
-		7D93006F84E36B0D9AB5410A /* libPods-dentalmax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CD5BD0C05B0AD66D26D356 /* libPods-dentalmax.a */; };
-		7E016C0FD78F8B46F05B4152 /* libPods-dentalmax-dentalmaxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBDE145F15FE2E519639EF0 /* libPods-dentalmax-dentalmaxTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8E93B9BCB04247FD879B29BD /* DINPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81FEE00914714A1AB6B7B744 /* DINPro-Medium.otf */; };
 /* End PBXBuildFile section */
@@ -33,24 +33,24 @@
 		00E356EE1AD99517003FC87E /* dentalmaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dentalmaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* dentalmaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dentalmaxTests.m; sourceTree = "<group>"; };
+		0B033CAEE106AB1CE3495876 /* libPods-dentalmax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dentalmax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119E9E43FD9D4539FA6BFC20 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax-dentalmaxTests.debug.xcconfig"; path = "Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* dentalmax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dentalmax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dentalmax/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dentalmax/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dentalmax/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dentalmax/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dentalmax/main.m; sourceTree = "<group>"; };
-		1DBDE145F15FE2E519639EF0 /* libPods-dentalmax-dentalmaxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dentalmax-dentalmaxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		301595873F92486CA2EE0C21 /* DINPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DINPro-Bold.otf"; path = "../src/assets/fonts/DINPro-Bold.otf"; sourceTree = "<group>"; };
-		4BE18A97C4E2ACCB5247E9D6 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax-dentalmaxTests.release.xcconfig"; path = "Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B953D04A9C37E9B0F91B475 /* Pods-dentalmax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax.release.xcconfig"; path = "Target Support Files/Pods-dentalmax/Pods-dentalmax.release.xcconfig"; sourceTree = "<group>"; };
+		79285402D8584DF69E57832E /* Pods-dentalmax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax.debug.xcconfig"; path = "Target Support Files/Pods-dentalmax/Pods-dentalmax.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dentalmax/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81FEE00914714A1AB6B7B744 /* DINPro-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DINPro-Medium.otf"; path = "../src/assets/fonts/DINPro-Medium.otf"; sourceTree = "<group>"; };
-		85CD5BD0C05B0AD66D26D356 /* libPods-dentalmax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dentalmax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8688C3534E7CE7BA7842C8CE /* Pods-dentalmax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax.release.xcconfig"; path = "Target Support Files/Pods-dentalmax/Pods-dentalmax.release.xcconfig"; sourceTree = "<group>"; };
 		A299535CD93E4869BE60E794 /* DINPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DINPro-Regular.otf"; path = "../src/assets/fonts/DINPro-Regular.otf"; sourceTree = "<group>"; };
 		AAC6B8DF29BBA870006322F5 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		AAC6B8E129BBAB68006322F5 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		DFE76367DE3FCF75248BB328 /* Pods-dentalmax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax.debug.xcconfig"; path = "Target Support Files/Pods-dentalmax/Pods-dentalmax.debug.xcconfig"; sourceTree = "<group>"; };
-		ECC7047276A1A9DCE82E0C78 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax-dentalmaxTests.debug.xcconfig"; path = "Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3668262B63E0C1E95279D86 /* libPods-dentalmax-dentalmaxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dentalmax-dentalmaxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47AACF343C10BC2C899E2A0 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dentalmax-dentalmaxTests.release.xcconfig"; path = "Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E016C0FD78F8B46F05B4152 /* libPods-dentalmax-dentalmaxTests.a in Frameworks */,
+				0779ABED6B5CB813FEF2DF40 /* libPods-dentalmax-dentalmaxTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D93006F84E36B0D9AB5410A /* libPods-dentalmax.a in Frameworks */,
+				18B46247B916DAB1C281BDD8 /* libPods-dentalmax.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				85CD5BD0C05B0AD66D26D356 /* libPods-dentalmax.a */,
-				1DBDE145F15FE2E519639EF0 /* libPods-dentalmax-dentalmaxTests.a */,
+				0B033CAEE106AB1CE3495876 /* libPods-dentalmax.a */,
+				C3668262B63E0C1E95279D86 /* libPods-dentalmax-dentalmaxTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +118,10 @@
 		4F6512CAD3ED2F7F8CF05CCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFE76367DE3FCF75248BB328 /* Pods-dentalmax.debug.xcconfig */,
-				8688C3534E7CE7BA7842C8CE /* Pods-dentalmax.release.xcconfig */,
-				ECC7047276A1A9DCE82E0C78 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */,
-				4BE18A97C4E2ACCB5247E9D6 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */,
+				79285402D8584DF69E57832E /* Pods-dentalmax.debug.xcconfig */,
+				3B953D04A9C37E9B0F91B475 /* Pods-dentalmax.release.xcconfig */,
+				119E9E43FD9D4539FA6BFC20 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */,
+				E47AACF343C10BC2C899E2A0 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -184,12 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dentalmaxTests" */;
 			buildPhases = (
-				89D9858AB5C3CA7E675E8ED3 /* [CP] Check Pods Manifest.lock */,
+				88088CAD76DDE6B96FE930A5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E0BCEB37ED53185EEED4C0CE /* [CP] Embed Pods Frameworks */,
-				11F6B40A62BAA0B00F0DA1A6 /* [CP] Copy Pods Resources */,
+				07831C1FED8B138F79084BE1 /* [CP] Embed Pods Frameworks */,
+				38D8CE610E5A182544EB6AD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,14 +205,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dentalmax" */;
 			buildPhases = (
-				3E14419919B8DBAE13FF6272 /* [CP] Check Pods Manifest.lock */,
+				614BDB3E7E83068A5025E5F4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B452B548700B8DDD14D970F5 /* [CP] Embed Pods Frameworks */,
-				90D08385A2C3446927290ADA /* [CP] Copy Pods Resources */,
+				A854E34E566214FFAEB455B9 /* [CP] Embed Pods Frameworks */,
+				5A9393C01F1A0E2C55DD6131 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,7 +284,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -292,11 +292,28 @@
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		11F6B40A62BAA0B00F0DA1A6 /* [CP] Copy Pods Resources */ = {
+		07831C1FED8B138F79084BE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D8CE610E5A182544EB6AD3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,7 +330,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E14419919B8DBAE13FF6272 /* [CP] Check Pods Manifest.lock */ = {
+		5A9393C01F1A0E2C55DD6131 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614BDB3E7E83068A5025E5F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,7 +369,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		89D9858AB5C3CA7E675E8ED3 /* [CP] Check Pods Manifest.lock */ = {
+		88088CAD76DDE6B96FE930A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,24 +391,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90D08385A2C3446927290ADA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B452B548700B8DDD14D970F5 /* [CP] Embed Pods Frameworks */ = {
+		A854E34E566214FFAEB455B9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,23 +406,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax/Pods-dentalmax-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0BCEB37ED53185EEED4C0CE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dentalmax-dentalmaxTests/Pods-dentalmax-dentalmaxTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -460,7 +460,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC7047276A1A9DCE82E0C78 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */;
+			baseConfigurationReference = 119E9E43FD9D4539FA6BFC20 /* Pods-dentalmax-dentalmaxTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -487,7 +487,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BE18A97C4E2ACCB5247E9D6 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */;
+			baseConfigurationReference = E47AACF343C10BC2C899E2A0 /* Pods-dentalmax-dentalmaxTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -511,10 +511,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE76367DE3FCF75248BB328 /* Pods-dentalmax.debug.xcconfig */;
+			baseConfigurationReference = 79285402D8584DF69E57832E /* Pods-dentalmax.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84X9PWAY35;
 				ENABLE_BITCODE = NO;
@@ -528,8 +530,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.dentalmax.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dentalmax.apppss;
 				PRODUCT_NAME = dentalmax;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,10 +541,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8688C3534E7CE7BA7842C8CE /* Pods-dentalmax.release.xcconfig */;
+			baseConfigurationReference = 3B953D04A9C37E9B0F91B475 /* Pods-dentalmax.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84X9PWAY35;
 				INFOPLIST_FILE = dentalmax/Info.plist;
@@ -554,8 +559,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.dentalmax.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dentalmax.apppss;
 				PRODUCT_NAME = dentalmax;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

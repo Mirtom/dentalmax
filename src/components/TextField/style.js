@@ -12,6 +12,7 @@ export default StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: '#FFF',
   },
   smallWidth: {
     width: Normalize(295),
